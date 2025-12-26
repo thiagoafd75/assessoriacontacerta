@@ -1,101 +1,300 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ContaCerta – Assessoria Financeira Digital</title>
-<meta name="description" content="Assessoria Financeira Digital e Contabilidade para organizar suas finanças, reduzir impostos e tomar decisões seguras.">
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContaCerta - Assessoria Financeira Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-text">ContaCerta</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#hero" class="nav-link">Início</a>
+                    <a href="#solutions" class="nav-link">Soluções</a>
+                    <a href="#benefits" class="nav-link">Benefícios</a>
+                    <a href="#contact" class="nav-link">Contato</a>
+                </div>
+                <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre os serviços da ContaCerta." class="cta-button nav-cta" target="_blank">
+                    Falar no WhatsApp
+                </a>
+            </div>
+        </nav>
+    </header>
 
-<header class="header">
-<div class="container header-flex">
-<h1 class="logo">ContaCerta</h1>
-<a href="https://wa.me/5575920019795" class="btn-outline">Falar no WhatsApp</a>
-</div>
-</header>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Transforme Seu Dinheiro em <span class="highlight">Crescimento Sustentável</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Assessoria financeira digital e contabilidade estratégica para pessoas físicas e empresas que querem organização, segurança e resultados reais.
+                </p>
+                <div class="hero-ctas">
+                    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de uma consultoria gratuita." class="cta-button primary-cta" target="_blank">
+                        Consultoria Gratuita
+                    </a>
+                    <button class="cta-button secondary-cta" onclick="scrollToForm()">
+                        Solicitar Orçamento
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-gradient"></div>
+                <div class="hero-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="hero">
-<div class="container">
-<h2>ContaCerta – Assessoria Financeira Digital</h2>
-<p>Assessoria financeira e contabilidade estratégica para quem quer controle, economia de impostos e crescimento sustentável.</p>
+    <!-- Pain Points Section -->
+    <section class="pain-points">
+        <div class="container">
+            <h2 class="section-title">Você Está Cansado Disso?</h2>
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <div class="pain-icon">💸</div>
+                    <h3>Pagar Impostos Altos</h3>
+                    <p>Perder dinheiro desnecessariamente por falta de planejamento tributário estratégico.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">📊</div>
+                    <h3>Falta de Controle Financeiro</h3>
+                    <p>Não saber exatamente para onde vai seu dinheiro e como otimizar seus investimentos.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">⏰</div>
+                    <h3>Tempo Perdido com Burocracia</h3>
+                    <p>Dedicar horas preciosas a declarações e obrigações contábeis complexas.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">⚠️</div>
+                    <h3>Riscos Fiscais</h3>
+                    <p>Viver com medo de autuações e problemas com o fisco por erros contábeis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="hero-cta">
-<a href="https://wa.me/5575920019795" class="btn-primary">Atendimento via WhatsApp</a>
-<a href="#formulario" class="btn-secondary">Solicitar diagnóstico</a>
-</div>
-</div>
-</section>
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2 class="section-title">Nossas Soluções Completas</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-header">
+                        <div class="solution-icon">📈</div>
+                        <h3>Assessoria Financeira Digital</h3>
+                    </div>
+                    <ul class="solution-list">
+                        <li>Planejamento financeiro personalizado</li>
+                        <li>Gestão de investimentos e poupança</li>
+                        <li>Controle de fluxo de caixa</li>
+                        <li>Otimização de custos e despesas</li>
+                        <li>Projeções de crescimento financeiro</li>
+                        <li>Acompanhamento mensal de resultados</li>
+                    </ul>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-header">
+                        <div class="solution-icon">📋</div>
+                        <h3>Contabilidade Estratégica</h3>
+                    </div>
+                    <ul class="solution-list">
+                        <li>Declarações fiscais completas</li>
+                        <li>Planejamento tributário inteligente</li>
+                        <li>Regularização fiscal e contábil</li>
+                        <li>Assessoria em abertura de empresas</li>
+                        <li>Relatórios gerenciais mensais</li>
+                        <li>Suporte em auditorias e fiscalizações</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section">
-<div class="container">
-<h3>Você enfrenta algum desses problemas?</h3>
-<div class="grid-4">
-<div class="box">❌ Falta de controle financeiro</div>
-<div class="box">❌ Pagamento excessivo de impostos</div>
-<div class="box">❌ Contabilidade confusa ou desorganizada</div>
-<div class="box">❌ Decisões financeiras sem segurança</div>
-</div>
-</div>
-</section>
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Por Que Escolher a ContaCerta?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-number">01</div>
+                    <h3>Economia Real</h3>
+                    <p>Reduza seus impostos legais e aumente sua rentabilidade com estratégias comprovadas.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">02</div>
+                    <h3>Tecnologia Avançada</h3>
+                    <p>Plataformas digitais modernas para acompanhamento em tempo real dos seus resultados.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">03</div>
+                    <h3>Equipe Especializada</h3>
+                    <p>Profissionais certificados com décadas de experiência no mercado financeiro.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">04</div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Soluções sob medida para seu perfil e necessidades específicas.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">05</div>
+                    <h3>Segurança Total</h3>
+                    <p>Proteção completa dos seus dados e informações confidenciais.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">06</div>
+                    <h3>Resultados Comprovados</h3>
+                    <p>Centenas de clientes satisfeitos com crescimento médio de 30% nos primeiros 6 meses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section section-light">
-<div class="container">
-<h3>Soluções completas em um só lugar</h3>
-<div class="grid-2">
-<div class="card">
-<h4>Assessoria Financeira Digital</h4>
-<ul>
-<li>✔ Planejamento financeiro</li>
-<li>✔ Controle de gastos</li>
-<li>✔ Organização pessoal e empresarial</li>
-<li>✔ Acompanhamento contínuo</li>
-</ul>
-</div>
-<div class="card">
-<h4>Contabilidade Estratégica</h4>
-<ul>
-<li>✔ Regularização e conformidade fiscal</li>
-<li>✔ Redução legal de impostos</li>
-<li>✔ Apoio ao crescimento do negócio</li>
-<li>✔ Suporte contábil especializado</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
+    <!-- Authority Section -->
+    <section class="authority">
+        <div class="container">
+            <div class="authority-content">
+                <h2 class="section-title">Mais de 500 Empresas Confiam na ContaCerta</h2>
+                <p class="authority-text">
+                    Desde 2018, somos referência em assessoria financeira digital e contabilidade estratégica.
+                    Nossa metodologia exclusiva combina tecnologia de ponta com conhecimento especializado,
+                    garantindo resultados superiores e tranquilidade para nossos clientes.
+                </p>
+                <div class="authority-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Clientes Ativos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">R$ 50M+</div>
+                        <div class="stat-label">Em Impostos Otimizados</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Satisfação dos Clientes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section">
-<div class="container">
-<h3>Por que escolher a ContaCerta?</h3>
-<div class="grid-3">
-<div class="box">📊 Decisões baseadas em números</div>
-<div class="box">🤝 Atendimento humano e personalizado</div>
-<div class="box">💻 100% digital e acessível</div>
-</div>
-</div>
-</section>
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para Transformar Suas Finanças?</h2>
+                <p>Agende sua consultoria gratuita e descubra como podemos ajudar você a alcançar seus objetivos financeiros.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar minha consultoria gratuita." class="cta-button primary-cta" target="_blank">
+                        Agendar Consultoria Gratuita
+                    </a>
+                    <button class="cta-button secondary-cta" onclick="scrollToForm()">
+                        Fazer Orçamento
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="formulario" class="section section-light">
-<div class="container">
-<h3>Solicite seu diagnóstico gratuito</h3>
-<form action="mailto:contato@assessoriacontacerta.com.br" method="post" enctype="text/plain">
-<input type="text" name="nome" placeholder="Nome completo" required>
-<input type="email" name="email" placeholder="E-mail" required>
-<input type="tel" name="telefone" placeholder="WhatsApp" required>
-<textarea name="mensagem" placeholder="Conte brevemente sua necessidade"></textarea>
-<button type="submit" class="btn-primary">Enviar solicitação</button>
-</form>
-</div>
-</section>
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Entre em Contato</h2>
+                    <p>Preencha o formulário abaixo e nossa equipe entrará em contato em até 24 horas.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>contato@contacerta.com.br</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Empresa (opcional)</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Serviço de Interesse</label>
+                        <select id="service" name="service">
+                            <option value="">Selecione...</option>
+                            <option value="assessoria">Assessoria Financeira Digital</option>
+                            <option value="contabilidade">Contabilidade Estratégica</option>
+                            <option value="ambos">Ambos os Serviços</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Conte-nos sobre suas necessidades..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-button form-submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-<footer class="footer">
-<p>© 2025 ContaCerta – Assessoria Financeira Digital</p>
-</footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">ContaCerta</span>
+                    <p>Assessoria Financeira Digital</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Início</a>
+                    <a href="#solutions">Soluções</a>
+                    <a href="#benefits">Benefícios</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ContaCerta. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 
-<a href="https://wa.me/5575920019795" class="whatsapp-float">💬</a>
-
+    <script src="script.js"></script>
 </body>
 </html>
